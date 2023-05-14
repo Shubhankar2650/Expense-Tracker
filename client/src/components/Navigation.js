@@ -7,7 +7,7 @@ const Navigation = () => {
                 <Link to ="/"></Link>
                 <ul className='flex item-center'>
                     <li className='ml-6'><Link to="/">Memories</Link> </li>
-                    <li className='ml-6'><Link to="/Expenseses">Expenseses</Link> </li>
+                    <li className='ml-6'><Link to="http://www.w3schools.com">Expenseses</Link> </li>
                 </ul>
             </nav>
         </>
