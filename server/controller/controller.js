@@ -2,10 +2,11 @@ const model = require('../models/model');
 
 //  post: http://localhost:8080/api/categories
 async function create_Categories(req, res){
-   const Create = new model.Categories({
-       type: "Investment",
-       color: "#FCBE44"
+    const Create = new model.Categories({
+       type: "Savings",
+       color: "#9d4edd"
    })
+
 
    await Create.save(function(err){
        if (!err) return res.json(Create);
